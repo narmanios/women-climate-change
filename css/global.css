@@ -1,0 +1,636 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensures full height and no unexpected space below */
+}
+
+
+body {
+  font-family: 'Inter';
+  color: rgb(255, 255, 255);
+  background: white;
+  /* margin: 0 auto; */
+}
+
+.panel_one {
+  background-color: #D13F00;
+  background-image: url("/images/intro.png");
+  background-size: auto 100%;
+  background-position: calc(100% - 140px) center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  padding-top: 40px;
+  min-height: 100vh;
+}
+.panel_globally {
+  background-color: white;
+  background-image: url("/images/global-effects.png");
+  background-size: auto 80%;
+  background-position: calc(100% - 140px) center;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  color: rgb(0, 0, 0);
+}
+
+.panel_global_effect {
+  background-color: #496D48;
+  background-image: url("/images/health.png");
+  background-size: auto 70%;
+  background-position: calc(100% - 140px) center;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  color: white;
+}
+
+
+.panel_women {
+  background-color: #865B2C;
+  background-image: url("/images/picket-signs.png");
+  background-size: auto 100%;
+  background-position: calc(100% - 140px) center;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  color: white;
+}
+
+.panel_women_statement {
+  background-color: #865B2C;
+  background-image: url("/images/group-women.png");
+  background-size: auto 55%;
+  background-position: calc(100% - 140px) center;
+  /* background-position: right; */
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  color: white;
+}
+
+.panel_women_in_us {
+  /* background-color: #865B2C; */
+  background-image: url("/images/woman-portrait.png");
+  background-size: auto 90%; 
+  background-position: calc(100% - 140px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 80px;
+  position: relative;
+  color: black;
+}
+
+.panel_pregnancy {
+  background-color: #496D48;
+  background-image: url("/images/pregnancy2.png");
+  background-size: auto 70%;
+  background-position: calc(100% - 180px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-left: 80px;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.panel_mental_health {
+  background-color: #496D48;
+  background-image: url("/images/mental-health.png");
+  background-size: auto 80%;
+  background-position: 80px;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  color: white;
+}
+
+.panel_domestic_violence {
+  background-color: white;
+  background-image: url("/images/domestic-violence.png");
+  background-size: auto 35%; 
+  background-position: calc(100% - 80px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 80px;
+  position: relative;
+  color: black;
+}
+
+
+.panel_care_taking {
+  background-color: #D13F00;
+  background-image: url("/images/care-taking.png");
+  background-size: auto 85%;
+  background-position: calc(100% - 80px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-left: 80px;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.panel_care_taking_two {
+  background-color: #D13F00;
+  background-image: url("/images/care-taking-two.png");
+  background-size: auto 90%;
+  background-position: 80px;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  /* width: 100%; 
+  padding-left: 80px;
+  height: 620px;
+  color: white; */
+}
+.panel_price_paid {
+  background-color: #D13F00;
+  background-image: url("/images/price-paid.png");
+  background-size: auto 85%; 
+  background-position: calc(100% - 80px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 720px;
+  padding-left: 80px;
+  padding-top: 160px;
+  position: relative;
+}
+
+.panel_collecting_water {
+  background-color: #865B2C;
+  background-image: url("/images/collecting-water.png");
+  background-size: auto 100%;
+  background-position: calc(100% - 80px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-left: 80px;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.panel_girl_collecting_water {
+  background-color: #865B2C;
+  background-image: url("/images/girl-collecting-water.png");
+  background-size: auto 100%;
+  /* background-position: 80px; */
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  color: white;
+}
+
+.panel_danger {
+  background-color: #865B2C;
+  background-image: url("/images/woman-danger.png");
+  background-size: auto 70%;
+  background-position: calc(100% - 120px) center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  padding-top: 160px;
+  min-height: 100vh;
+  color: white;
+}
+
+.panel_sanitation {
+  background-color: #865B2C;
+  background-image: url("/images/toilet-access.png");
+  background-size: auto 85%;
+  background-position: calc(100% - 120px) center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  padding-top: 160px;
+  min-height: 100vh;
+  color: white;
+}
+
+.module_water_sources {
+  padding-left: 80px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #865B2C;
+}
+
+.module_child_marriage {
+  padding-left: 80px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #496D48;
+}
+
+.module_charts {
+  padding-top: 20px;
+}
+
+
+.parent_container_charts {
+  display: flex;
+  flex-direction: column;  /* Stacks children (titles and charts) vertically */
+  align-items: center;     /* Centers children horizontally in the flex container */
+  justify-content: flex-start; /* Aligns children to start at the top of the container */
+  width: 100%;             /* Ensures the container spans the full width */
+  padding: 20px;           /* Adds padding around the content */
+  box-sizing: border-box;  /* Padding and border are included in the width/height */
+}
+
+.chart_titles {
+  width: 80%;              /* Sets the width matching the charts for alignment */
+  /* text-align: center;      Centers the text horizontally */
+  margin-top: 40px;        /* Adds space above each title */
+  margin-bottom: 10px;     /* Adds space between the title and its corresponding chart */
+  font-size: 16px;
+  color: inherit;
+}
+
+#barchart_two, #linechart_violence {
+  width: 80%;              /* Matches the width of the titles for alignment */
+  margin-bottom: 20px;     /* Space after each chart */
+}
+
+
+
+@media (max-width: 768px) {
+  .chart_titles, #barchart_two, #linechart_violence {
+    width: 95%;  /* Allows more width on smaller screens */
+  }
+}
+
+.barchart_x-axis {
+  font-size: 14px;
+  color: #fff4e8;
+
+}
+
+.barchart_y-axis {
+  font-size: 14px;
+  color: #fff4e8;
+}
+
+
+.segment-button {
+  padding: 5px 20px; /* Increase padding for larger buttons */
+  background-color:  #161616;
+  cursor: pointer;
+  color: #585858;
+  border: none; /* Remove border */
+  outline: none; /* Remove outline */
+  border-radius: 5px; /* Adjust border-radius as needed */
+  size: 50px, 50px;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.segment-button.active {
+  background-color:  #161616;
+  color: #ffffff;
+}
+
+.panel_roles {
+  background-color: #D13F00;
+  background-image: url("/images/resilience.png");
+  background-size: auto 100%;
+  background-position: calc(100% - 40px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-left: 80px;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+}
+.panel_responders {
+  background-color: #D13F00;
+  background-image: url("/images/responders.png");
+  background-size: auto 70%;
+  /* background-position: 60px; */
+
+  /* background-position: calc(100% - 80px) right; */
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  color: white;
+}
+
+
+.panel_driving_change {
+  background-color: #D13F00;
+  background-image: url("/images/recycling.png");
+  background-size: auto 75%;
+  background-position: calc(100% - 80px) center;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  padding-top: 160px;
+  min-height: 100vh;
+  color: white;
+}
+
+.panel_consumers {
+  background-color: #D13F00;
+  background-image: url("/images/consumers.png");
+  background-size: auto 90%;
+  background-position: 80px;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  min-height: 100vh;
+  /* color: white; */
+}
+
+.panel_politics {
+  background-color: #865B2C;
+  /* background-image: url("/images/politics.png"); */
+  background-size: auto 30%; 
+  background-position: calc(100% - 100px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 80px;
+  padding-top: 40px;
+  position: relative;
+}
+
+div img {
+  width: 90%;   /* Make the image take up 100% of its parent's width */
+  height: auto;  /* Maintain the aspect ratio */
+}
+
+.panel_activism {
+  background-image: url("/images/activisim.png");
+  background-size: auto 90%; 
+  background-position: calc(100% - 80px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 80px;
+  position: relative;
+  color: black;
+}
+
+.module_voting {
+  padding-left: 80px;
+  background-image: url("/images/vote.png");
+  background-size: auto 80%;
+  background-position: calc(100% - 40px) center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #496D48;
+}
+
+.panel_understand {
+  background-color: #865B2C;
+  background-image: url("/images/data_collecting.png");
+  background-size: auto 80%;
+  background-position: calc(100% - 80px) center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding-left: 80px;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+}
+
+.panel_strong_girls {
+  background-color: white;
+  background-image: url("/images/strong-girls.png");
+  background-size: auto 100%;
+  background-position: 80px;
+  background-repeat: no-repeat;
+  width: 100%; 
+  padding-left: 80px;
+  padding-top: 100px;
+  min-height: 100vh;
+  color: black;
+}
+.panel_take_action {
+background-color: #D13F00;
+background-image: url("/images/take-action.png");
+background-size: auto 80%;
+background-position: calc(100% - 140px) center;
+background-repeat: no-repeat;
+width: 100%;
+padding-left: 80px;
+min-height: 100vh;
+position: relative;
+color: white;
+}
+
+/* .video-container {
+  width: 100%; 
+  height: 720px; 
+  overflow: hidden;
+}
+
+#myVideo {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+  object-position: center;
+  transition: opacity 5s ease-in-out; 
+  opacity: 1;
+} */
+
+.video-container {
+  position: relative; /* This enables absolute positioning for children */
+  width: 100%; /* Set the width to the full width of the browser */
+  height: 720px; /* Set a fixed height for the visible area */
+  overflow: hidden; /* Hide the parts of the video outside the container */
+}
+
+#myVideo {
+  width: 100%; /* Make the video fill the container */
+  height: 100%; /* Fill the height of the container */
+  object-fit: cover; /* Cover the container with the video */
+  object-position: center; /* Adjust the position of the video within the container */
+  transition: opacity 5s ease-in-out; 
+  opacity: 1;
+}
+
+.video-overlay {
+  position: absolute; /* Position the text over the video */
+  top: 0; /* Align the text to the top of the container */
+  left: 0; /* Align the text to the left of the container */
+  width: 100%; /* Span the width of the container */
+  height: 100%; /* Span the height of the container */
+  display: flex; /* Use flexbox to center the text */
+  align-items: center; /* Center the text vertically */
+  justify-content: center; /* Center the text horizontally */
+  color: white; /* Set the text color */
+  text-shadow: 2px 2px 14px #161616; /* Add shadow: horizontal, vertical, blur, color */
+  font-size: 2.5em; /* Set the text size */
+  text-align: center; /* Align the text in the center */
+  pointer-events: none; /* Prevent the overlay from blocking interactions with the video */
+}
+
+
+h1 {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 120px;
+    line-height: 140px;
+    width: 45%; 
+    margin: 0;
+}
+
+h1 span {
+  font-family: Inter;
+  font-weight: 300;
+  /* color: white; */
+  font-size: 48px;
+  line-height: 30px; 
+}
+
+h2 span {
+  font-family: Inter;
+  font-weight: 300;
+  color: white;
+  font-size: 32px;
+  line-height: 40px; 
+}
+
+h2 {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  font-size: 80px;
+  line-height: 96px;
+  /* width: 45%;  */
+  margin: 0;
+}
+
+h2.white {
+    font-family: "Roboto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 80px;
+    line-height: 96px;
+    /* width: 45%;  */
+    margin: 0;
+    padding-top: 100px;
+}
+
+h2.black {
+  font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: rgb(0, 0, 0);
+  font-size: 80px;
+  line-height: 96px;
+  width: 45%; 
+  margin: 0;
+  padding-top: 100px;
+}
+.subheader_black, .subheader_white {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  width: 45%; 
+  padding-top: 20px;
+}
+
+.subheader_black, .subheader_white {
+  color: inherit;
+}
+.subheader_white span, .subheader_black span {
+  font-size: 40px;
+}
+
+.content_container {
+  width: 45%;
+  padding-right: 140px;
+  padding-top: 140px;
+  float: right;
+}
+
+.content_container_left {
+  width: 45%;
+  /* padding-right: 140px; */
+  /* padding-top: 80px; */
+  /* float: right; */
+}
+
+.paragraph {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  padding-top: 20px;
+}
+
+.paragraph span {
+  font-size: 40px;
+}
+
+.question {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 40px;
+  padding-top: 80px;
+}
+
+.citation_white, .citation_black {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 20px;
+  /* float: left; */
+}
+
+.notes {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 14px;
+  padding-top: 20px;
+  width: 60vh;
+}
+.citation_white a, .citation_black a {
+  color: inherit;
+  text-decoration: none;
+
+}
+
+/* p {
+  width: 50%;
+  font-size: 12px;
+} */
+
+.footer {
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Center content vertically */
+  justify-content: start; /* Align content horizontally to the left, starting after the padding */
+  background-color: black;
+  /* height: 100px; */
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 12px;
+  color: white;
+  padding-left: 80px;
+  margin-top: 0; /* Ensure there's no top margin causing space above the footer */
+  margin-bottom: 0; /* Ensure there's no top margin causing space above the footer */
+
+}

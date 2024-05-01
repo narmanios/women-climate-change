@@ -1,0 +1,118 @@
+{
+    "Arid area": {
+        "Sources of water": {
+            "Tube well or barehole*": {
+                "Dry season": 35.4,
+                "Wet season": 30.6
+            },
+            "Rainwater*": {
+                "Dry season": 6.6,
+                "Wet season": 28.3
+            },
+            "River/lake/ponds/stream/canal/irrigation": {
+                "Dry season": 18.7,
+                "Wet season": 6.7
+            },
+            "Unprotected well": {
+                "Dry season": 12.7,
+                "Wet season": 11.5
+            },
+            "Bottled water*": {
+                "Dry season": 12.6,
+                "Wet season": 10.7
+            },
+            "Piped into dwelling*": {
+                "Dry season": 5.4,
+                "Wet season": 5.1
+            },
+            "Protected well*": {
+                "Dry season": 3.4,
+                "Wet season": 3.3
+            },
+            "Piped to yard/plot*": {
+                "Dry season": 1.9,
+                "Wet season": 1.6
+            },
+            "Tanker truck": {
+                "Dry season": 2.6,
+                "Wet season": 0.3
+            },
+            "Piped to neighbor*": {
+                "Dry season": 0.9,
+                "Wet season": 0.8
+            },
+            "Cart with small tank": {
+                "Dry season": 0.8,
+                "Wet season": 0.4
+            },
+            "Unprotected spring": {
+                "Dry season": 0.7,
+                "Wet season": 0.5
+            },
+            "Protected spring*": {
+                "Dry season": 0.2,
+                "Wet season": 0.2
+            }
+        }
+    },
+    "Humid area": {
+        "Sources of water": {
+            "Tube well or barehole": {
+                "Dry season": 12.7,
+                "Wet season": 6.2
+            },
+            "Rainwater": {
+                "Dry season": 18.7,
+                "Wet season": 60.5
+            },
+            "River/lake/ponds/stream/canal/irrigation": {
+                "Dry season": 25.1,
+                "Wet season": 6.6
+            },
+            "Unprotected well": {
+                "Dry season": 11.5,
+                "Wet season": 5.3
+            },
+            "Bottled water": {
+                "Dry season": 12.6,
+                "Wet season": 10.6
+            },
+            "Piped into dwelling": {
+                "Dry season": 5.4,
+                "Wet season": 4.7
+            },
+            "Protected well": {
+                "Dry season": 3.2,
+                "Wet season": 1.6
+            },
+            "Piped to yard/plot": {
+                "Dry season": 2.2,
+                "Wet season": 1.7
+            },
+            "Tanker truck": {
+                "Dry season": 2.3,
+                "Wet season": 0.3
+            },
+            "Piped to neighbor": {
+                "Dry season": 1.2,
+                "Wet season": 1.1
+            },
+            "Cart with small tank": {
+                "Dry season": 2.3,
+                "Wet season": 0.4
+            },
+            "Unprotected spring": {
+                "Dry season": 2.3,
+                "Wet season": 0.8
+            },
+            "Protected spring": {
+                "Dry season": 0.3,
+                "Wet season": 0.1
+            },
+            "Other": {
+                "Dry season": 0.1,
+                "Wet season": 0.1
+            }
+        }
+    }
+}

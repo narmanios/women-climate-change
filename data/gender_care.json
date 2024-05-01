@@ -1,0 +1,683 @@
+{
+    "Albania": [
+      {
+        "date": 2011,
+        "male_pct": 3.47222,
+        "female_pct": 21.73611,
+        "male": 0.8333328,
+        "female": 5.2166664,
+        "gap": 4.3833336
+      }
+    ],
+    "Algeria": [
+      {
+        "date": 2012,
+        "male_pct": 3.75,
+        "female_pct": 21.66667,
+        "male": 0.9,
+        "female": 5.2000008,
+        "gap": 4.3000008
+      }
+    ],
+    "Argentina": [
+      {
+        "date": 2013,
+        "male_pct": 9.2486,
+        "female_pct": 23.41864,
+        "male": 2.219664,
+        "female": 5.6204736,
+        "gap": 3.4008096
+      }
+    ],
+    "Belarus": [
+      {
+        "date": 2015,
+        "male_pct": 9.51389,
+        "female_pct": 19.16667,
+        "male": 2.2833336,
+        "female": 4.6000008,
+        "gap": 2.3166672
+      }
+    ],
+    "Belgium": [
+      {
+        "date": 2013,
+        "male_pct": 10.06944,
+        "female_pct": 15.90278,
+        "male": 2.4166656,
+        "female": 3.8166672,
+        "gap": 1.4000016
+      }
+    ],
+    "Bhutan": [
+      {
+        "date": 2015,
+        "male_pct": 5.90278,
+        "female_pct": 15.0,
+        "male": 1.4166672,
+        "female": 3.6,
+        "gap": 2.1833328
+      }
+    ],
+    "Brazil": [
+      {
+        "date": 2017,
+        "male_pct": 5.13276,
+        "female_pct": 11.60814,
+        "male": 1.2318624,
+        "female": 2.7859536,
+        "gap": 1.5540912
+      }
+    ],
+    "Bulgaria": [
+      {
+        "date": 2010,
+        "male_pct": 9.23611,
+        "female_pct": 18.47222,
+        "male": 2.2166664,
+        "female": 4.4333328,
+        "gap": 2.2166664
+      }
+    ],
+    "Cameroon": [
+      {
+        "date": 2014,
+        "male_pct": 4.56784,
+        "female_pct": 15.82086,
+        "male": 1.0962816,
+        "female": 3.7970064,
+        "gap": 2.7007248
+      }
+    ],
+    "Canada": [
+      {
+        "date": 2016,
+        "male_pct": 9.58333,
+        "female_pct": 14.58333,
+        "male": 2.2999992,
+        "female": 3.4999992,
+        "gap": 1.2
+      }
+    ],
+    "Chile": [
+      {
+        "date": 2015,
+        "male_pct": 9.85396,
+        "female_pct": 22.10355,
+        "male": 2.3649504,
+        "female": 5.304852,
+        "gap": 2.9399016
+      }
+    ],
+    "China": [
+      {
+        "date": 2018,
+        "male_pct": 5.90278,
+        "female_pct": 15.34722,
+        "male": 1.4166672,
+        "female": 3.6833328,
+        "gap": 2.2666656
+      }
+    ],
+    "Colombia": [
+      {
+        "date": 2017,
+        "male_pct": 2.92763,
+        "female_pct": 5.02051,
+        "male": 0.7026312,
+        "female": 1.2049224,
+        "gap": 0.5022912
+      }
+    ],
+    "Costa Rica": [
+      {
+        "date": 2017,
+        "male_pct": 8.37858,
+        "female_pct": 22.14571,
+        "male": 2.0108592,
+        "female": 5.3149704,
+        "gap": 3.3041112
+      }
+    ],
+    "Cuba": [
+      {
+        "date": 2016,
+        "male_pct": 12.47024,
+        "female_pct": 21.0,
+        "male": 2.9928576,
+        "female": 5.04,
+        "gap": 2.0471424
+      }
+    ],
+    "Dominican Republic": [
+      {
+        "date": 2016,
+        "male_pct": 3.78561,
+        "female_pct": 16.70887,
+        "male": 0.9085464,
+        "female": 4.0101288,
+        "gap": 3.1015824
+      }
+    ],
+    "Ecuador": [
+      {
+        "date": 2012,
+        "male_pct": 4.72192,
+        "female_pct": 19.74505,
+        "male": 1.1332608,
+        "female": 4.738812,
+        "gap": 3.6055512
+      }
+    ],
+    "Egypt, Arab Rep.": [
+      {
+        "date": 2015,
+        "male_pct": 2.43056,
+        "female_pct": 22.36111,
+        "male": 0.5833344,
+        "female": 5.3666664,
+        "gap": 4.783332
+      }
+    ],
+    "El Salvador": [
+      {
+        "date": 2017,
+        "male_pct": 7.02928,
+        "female_pct": 20.21275,
+        "male": 1.6870272,
+        "female": 4.85106,
+        "gap": 3.1640328
+      }
+    ],
+    "Estonia": [
+      {
+        "date": 2010,
+        "male_pct": 10.76389,
+        "female_pct": 17.22222,
+        "male": 2.5833336,
+        "female": 4.1333328,
+        "gap": 1.5499992
+      }
+    ],
+    "Ethiopia": [
+      {
+        "date": 2013,
+        "male_pct": 6.59722,
+        "female_pct": 19.30556,
+        "male": 1.5833328,
+        "female": 4.6333344,
+        "gap": 3.0500016
+      }
+    ],
+    "Fiji": [
+      {
+        "date": 2016,
+        "male_pct": 5.19476,
+        "female_pct": 15.15812,
+        "male": 1.2467424,
+        "female": 3.6379488,
+        "gap": 2.3912064
+      }
+    ],
+    "Finland": [
+      {
+        "date": 2010,
+        "male_pct": 10.49167,
+        "female_pct": 15.20417,
+        "male": 2.5180008,
+        "female": 3.6490008,
+        "gap": 1.131
+      }
+    ],
+    "France": [
+      {
+        "date": 2010,
+        "male_pct": 9.49464,
+        "female_pct": 15.77314,
+        "male": 2.2787136,
+        "female": 3.7855536,
+        "gap": 1.50684
+      }
+    ],
+    "Germany": [
+      {
+        "date": 2013,
+        "male_pct": 10.4,
+        "female_pct": 16.4,
+        "male": 2.496,
+        "female": 3.936,
+        "gap": 1.44
+      }
+    ],
+    "Greece": [
+      {
+        "date": 2014,
+        "male_pct": 7.01389,
+        "female_pct": 18.125,
+        "male": 1.6833336,
+        "female": 4.35,
+        "gap": 2.6666664
+      }
+    ],
+    "Guatemala": [
+      {
+        "date": 2017,
+        "male_pct": 2.60537,
+        "female_pct": 19.48273,
+        "male": 0.6252888,
+        "female": 4.6758552,
+        "gap": 4.0505664
+      }
+    ],
+    "Hong Kong SAR, China": [
+      {
+        "date": 2013,
+        "male_pct": 3.33333,
+        "female_pct": 10.83333,
+        "male": 0.7999992,
+        "female": 2.5999992,
+        "gap": 1.8
+      }
+    ],
+    "Hungary": [
+      {
+        "date": 2010,
+        "male_pct": 7.9796,
+        "female_pct": 17.27674,
+        "male": 1.915104,
+        "female": 4.1464176,
+        "gap": 2.2313136
+      }
+    ],
+    "Italy": [
+      {
+        "date": 2014,
+        "male_pct": 8.4,
+        "female_pct": 20.4,
+        "male": 2.016,
+        "female": 4.896,
+        "gap": 2.88
+      }
+    ],
+    "Japan": [
+      {
+        "date": 2016,
+        "male_pct": 3.125,
+        "female_pct": 15.13889,
+        "male": 0.75,
+        "female": 3.6333336,
+        "gap": 2.8833336
+      }
+    ],
+    "Kazakhstan": [
+      {
+        "date": 2018,
+        "male_pct": 6.25,
+        "female_pct": 18.95833,
+        "male": 1.5,
+        "female": 4.5499992,
+        "gap": 3.0499992
+      }
+    ],
+    "Korea, Rep.": [
+      {
+        "date": 2019,
+        "male_pct": 4.375,
+        "female_pct": 14.09722,
+        "male": 1.05,
+        "female": 3.3833328,
+        "gap": 2.3333328
+      }
+    ],
+    "Kyrgyz Republic": [
+      {
+        "date": 2015,
+        "male_pct": 9.51389,
+        "female_pct": 16.80556,
+        "male": 2.2833336,
+        "female": 4.0333344,
+        "gap": 1.7500008
+      }
+    ],
+    "Lao PDR": [
+      {
+        "date": 2017,
+        "male_pct": 10.06278,
+        "female_pct": 13.6038,
+        "male": 2.4150672,
+        "female": 3.264912,
+        "gap": 0.8498448
+      }
+    ],
+    "Liberia": [
+      {
+        "date": 2010,
+        "male_pct": 2.57656,
+        "female_pct": 6.29234,
+        "male": 0.6183744,
+        "female": 1.5101616,
+        "gap": 0.8917872
+      }
+    ],
+    "Luxembourg": [
+      {
+        "date": 2014,
+        "male_pct": 7.08333,
+        "female_pct": 14.44444,
+        "male": 1.6999992,
+        "female": 3.4666656,
+        "gap": 1.7666664
+      }
+    ],
+    "Mexico": [
+      {
+        "date": 2019,
+        "male_pct": 11.11167,
+        "female_pct": 27.76825,
+        "male": 2.6668008,
+        "female": 6.66438,
+        "gap": 3.9975792
+      }
+    ],
+    "Moldova": [
+      {
+        "date": 2012,
+        "male_pct": 11.2725,
+        "female_pct": 20.13841,
+        "male": 2.7054,
+        "female": 4.8332184,
+        "gap": 2.1278184
+      }
+    ],
+    "Mongolia": [
+      {
+        "date": 2019,
+        "male_pct": 7.59633,
+        "female_pct": 19.29129,
+        "male": 1.8231192,
+        "female": 4.6299096,
+        "gap": 2.8067904
+      }
+    ],
+    "Morocco": [
+      {
+        "date": 2012,
+        "male_pct": 2.98611,
+        "female_pct": 20.83333,
+        "male": 0.7166664,
+        "female": 4.9999992,
+        "gap": 4.2833328
+      }
+    ],
+    "Netherlands": [
+      {
+        "date": 2012,
+        "male_pct": 9.23611,
+        "female_pct": 14.72222,
+        "male": 2.2166664,
+        "female": 3.5333328,
+        "gap": 1.3166664
+      }
+    ],
+    "New Zealand": [
+      {
+        "date": 2010,
+        "male_pct": 10.55556,
+        "female_pct": 18.05556,
+        "male": 2.5333344,
+        "female": 4.3333344,
+        "gap": 1.8
+      }
+    ],
+    "North Macedonia": [
+      {
+        "date": 2015,
+        "male_pct": 5.41667,
+        "female_pct": 15.41667,
+        "male": 1.3000008,
+        "female": 3.7000008,
+        "gap": 2.4
+      }
+    ],
+    "Norway": [
+      {
+        "date": 2011,
+        "male_pct": 12.33333,
+        "female_pct": 15.30833,
+        "male": 2.9599992,
+        "female": 3.6739992,
+        "gap": 0.714
+      }
+    ],
+    "Panama": [
+      {
+        "date": 2011,
+        "male_pct": 7.57184,
+        "female_pct": 17.95164,
+        "male": 1.8172416,
+        "female": 4.3083936,
+        "gap": 2.491152
+      }
+    ],
+    "Paraguay": [
+      {
+        "date": 2016,
+        "male_pct": 4.27041,
+        "female_pct": 14.52502,
+        "male": 1.0248984,
+        "female": 3.4860048,
+        "gap": 2.4611064
+      }
+    ],
+    "Peru": [
+      {
+        "date": 2010,
+        "male_pct": 8.94605,
+        "female_pct": 23.56031,
+        "male": 2.147052,
+        "female": 5.6544744,
+        "gap": 3.5074224
+      }
+    ],
+    "Poland": [
+      {
+        "date": 2013,
+        "male_pct": 9.92917,
+        "female_pct": 18.2625,
+        "male": 2.3830008,
+        "female": 4.383,
+        "gap": 1.9999992
+      }
+    ],
+    "Portugal": [
+      {
+        "date": 2015,
+        "male_pct": 10.2414,
+        "female_pct": 17.81135,
+        "male": 2.457936,
+        "female": 4.274724,
+        "gap": 1.816788
+      }
+    ],
+    "Qatar": [
+      {
+        "date": 2013,
+        "male_pct": 2.22222,
+        "female_pct": 8.19444,
+        "male": 0.5333328,
+        "female": 1.9666656,
+        "gap": 1.4333328
+      }
+    ],
+    "Romania": [
+      {
+        "date": 2012,
+        "male_pct": 9.375,
+        "female_pct": 19.02778,
+        "male": 2.25,
+        "female": 4.5666672,
+        "gap": 2.3166672
+      }
+    ],
+    "Russian Federation": [
+      {
+        "date": 2014,
+        "male_pct": 8.125,
+        "female_pct": 18.40278,
+        "male": 1.95,
+        "female": 4.4166672,
+        "gap": 2.4666672
+      }
+    ],
+    "Serbia": [
+      {
+        "date": 2015,
+        "male_pct": 8.69038,
+        "female_pct": 19.16756,
+        "male": 2.0856912,
+        "female": 4.6002144,
+        "gap": 2.5145232
+      }
+    ],
+    "South Africa": [
+      {
+        "date": 2010,
+        "male_pct": 6.45833,
+        "female_pct": 15.55556,
+        "male": 1.5499992,
+        "female": 3.7333344,
+        "gap": 2.1833352
+      }
+    ],
+    "Spain": [
+      {
+        "date": 2010,
+        "male_pct": 8.61111,
+        "female_pct": 18.95833,
+        "male": 2.0666664,
+        "female": 4.5499992,
+        "gap": 2.4833328
+      }
+    ],
+    "Sweden": [
+      {
+        "date": 2011,
+        "male_pct": 12.82797,
+        "female_pct": 16.04201,
+        "male": 3.0787128,
+        "female": 3.8500824,
+        "gap": 0.7713696
+      }
+    ],
+    "Switzerland": [
+      {
+        "date": 2016,
+        "male_pct": 10.80417,
+        "female_pct": 16.83333,
+        "male": 2.5930008,
+        "female": 4.0399992,
+        "gap": 1.4469984
+      }
+    ],
+    "Tanzania": [
+      {
+        "date": 2014,
+        "male_pct": 4.23611,
+        "female_pct": 16.45833,
+        "male": 1.0166664,
+        "female": 3.9499992,
+        "gap": 2.9333328
+      }
+    ],
+    "Thailand": [
+      {
+        "date": 2015,
+        "male_pct": 3.75,
+        "female_pct": 11.83333,
+        "male": 0.9,
+        "female": 2.8399992,
+        "gap": 1.9399992
+      }
+    ],
+    "Turkiye": [
+      {
+        "date": 2015,
+        "male_pct": 3.70575,
+        "female_pct": 19.15117,
+        "male": 0.88938,
+        "female": 4.5962808,
+        "gap": 3.7069008
+      }
+    ],
+    "Uganda": [
+      {
+        "date": 2018,
+        "male_pct": 7.5,
+        "female_pct": 14.58333,
+        "male": 1.8,
+        "female": 3.4999992,
+        "gap": 1.6999992
+      }
+    ],
+    "United Kingdom": [
+      {
+        "date": 2016,
+        "male_pct": 10.89583,
+        "female_pct": 15.13889,
+        "male": 2.6220008,
+        "female": 3.6320008,
+        "gap": 1.0100008
+      }
+    ],
+    "United States": [
+      {
+        "date": 2019,
+        "male_pct": 10.12195,
+        "female_pct": 15.4878,
+        "male": 2.429868,
+        "female": 3.717072,
+        "gap": 1.287204
+      }
+    ],
+    "Uruguay": [
+      {
+        "date": 2015,
+        "male_pct": 6.89291,
+        "female_pct": 14.89621,
+        "male": 1.6530984,
+        "female": 3.5746904,
+        "gap": 1.921592
+      }
+    ],
+    "Venezuela, RB": [
+      {
+        "date": 2012,
+        "male_pct": 9.16667,
+        "female_pct": 26.04167,
+        "male": 2.2,
+        "female": 6.25,
+        "gap": 4.05
+      }
+    ],
+    "Vietnam": [
+      {
+        "date": 2018,
+        "male_pct": 1.63194,
+        "female_pct": 9.27083,
+        "male": 0.3916624,
+        "female": 2.2249992,
+        "gap": 1.8333368
+      }
+    ],
+    "Zimbabwe": [
+      {
+        "date": 2017,
+        "male_pct": 5.83333,
+        "female_pct": 13.88889,
+        "male": 1.4,
+        "female": 3.3333328,
+        "gap": 1.9333328
+      }
+    ]
+  }
+  
