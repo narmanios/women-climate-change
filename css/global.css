@@ -14,7 +14,7 @@ body {
 
 .panel_one {
   background-color: #D13F00;
-  background-image: url("/images/intro.png");
+  background-image: url("../images/intro.png");
   background-size: auto 100%;
   background-position: calc(100% - 140px) center;
   background-repeat: no-repeat;
@@ -25,7 +25,7 @@ body {
 }
 .panel_globally {
   background-color: white;
-  background-image: url("/images/global-effects.png");
+  background-image: url("../images/global-effects.png");
   background-size: auto 80%;
   background-position: calc(100% - 140px) center;
   /* background-position: right; */
@@ -38,7 +38,7 @@ body {
 
 .panel_global_effect {
   background-color: #496D48;
-  background-image: url("/images/health.png");
+  background-image: url("../images/health.png");
   background-size: auto 70%;
   background-position: calc(100% - 140px) center;
   /* background-position: right; */
@@ -52,7 +52,7 @@ body {
 
 .panel_women {
   background-color: #865B2C;
-  background-image: url("/images/picket-signs.png");
+  background-image: url("../images/picket-signs.png");
   background-size: auto 100%;
   background-position: calc(100% - 140px) center;
   /* background-position: right; */
@@ -65,7 +65,7 @@ body {
 
 .panel_women_statement {
   background-color: #865B2C;
-  background-image: url("/images/group-women.png");
+  background-image: url("../images/group-women.png");
   background-size: auto 55%;
   background-position: calc(100% - 140px) center;
   /* background-position: right; */
@@ -78,7 +78,7 @@ body {
 
 .panel_women_in_us {
   /* background-color: #865B2C; */
-  background-image: url("/images/woman-portrait.png");
+  background-image: url("../images/woman-portrait.png");
   background-size: auto 90%; 
   background-position: calc(100% - 140px) center;
   background-repeat: no-repeat;
@@ -91,7 +91,7 @@ body {
 
 .panel_pregnancy {
   background-color: #496D48;
-  background-image: url("/images/pregnancy2.png");
+  background-image: url("../images/pregnancy2.png");
   background-size: auto 70%;
   background-position: calc(100% - 180px) center;
   background-repeat: no-repeat;
@@ -104,7 +104,7 @@ body {
 
 .panel_mental_health {
   background-color: #496D48;
-  background-image: url("/images/mental-health.png");
+  background-image: url("../images/mental-health.png");
   background-size: auto 80%;
   background-position: 80px;
   background-repeat: no-repeat;
@@ -116,7 +116,7 @@ body {
 
 .panel_domestic_violence {
   background-color: white;
-  background-image: url("/images/domestic-violence.png");
+  background-image: url("../images/domestic-violence.png");
   background-size: auto 35%; 
   background-position: calc(100% - 80px) center;
   background-repeat: no-repeat;
@@ -130,7 +130,7 @@ body {
 
 .panel_care_taking {
   background-color: #D13F00;
-  background-image: url("/images/care-taking.png");
+  background-image: url("../images/care-taking.png");
   background-size: auto 85%;
   background-position: calc(100% - 80px) center;
   background-repeat: no-repeat;
@@ -143,7 +143,7 @@ body {
 
 .panel_care_taking_two {
   background-color: #D13F00;
-  background-image: url("/images/care-taking-two.png");
+  background-image: url("../images/care-taking-two.png");
   background-size: auto 90%;
   background-position: 80px;
   background-repeat: no-repeat;
@@ -157,7 +157,7 @@ body {
 }
 .panel_price_paid {
   background-color: #D13F00;
-  background-image: url("/images/price-paid.png");
+  background-image: url("../images/price-paid.png");
   background-size: auto 85%; 
   background-position: calc(100% - 80px) center;
   background-repeat: no-repeat;
@@ -170,7 +170,7 @@ body {
 
 .panel_collecting_water {
   background-color: #865B2C;
-  background-image: url("/images/collecting-water.png");
+  background-image: url("../images/collecting-water.png");
   background-size: auto 100%;
   background-position: calc(100% - 80px) center;
   background-repeat: no-repeat;
@@ -183,7 +183,7 @@ body {
 
 .panel_girl_collecting_water {
   background-color: #865B2C;
-  background-image: url("/images/girl-collecting-water.png");
+  background-image: url("../images/girl-collecting-water.png");
   background-size: auto 100%;
   /* background-position: 80px; */
   background-repeat: no-repeat;
@@ -195,7 +195,7 @@ body {
 
 .panel_danger {
   background-color: #865B2C;
-  background-image: url("/images/woman-danger.png");
+  background-image: url("../images/woman-danger.png");
   background-size: auto 70%;
   background-position: calc(100% - 120px) center;
   background-repeat: no-repeat;
@@ -208,7 +208,7 @@ body {
 
 .panel_sanitation {
   background-color: #865B2C;
-  background-image: url("/images/toilet-access.png");
+  background-image: url("../images/toilet-access.png");
   background-size: auto 85%;
   background-position: calc(100% - 120px) center;
   background-repeat: no-repeat;
@@ -301,7 +301,7 @@ body {
 
 .panel_roles {
   background-color: #D13F00;
-  background-image: url("/images/resilience.png");
+  background-image: url("../images/resilience.png");
   background-size: auto 100%;
   background-position: calc(100% - 40px) center;
   background-repeat: no-repeat;
@@ -313,7 +313,7 @@ body {
 }
 .panel_responders {
   background-color: #D13F00;
-  background-image: url("/images/responders.png");
+  background-image: url("../images/responders.png");
   background-size: auto 70%;
   /* background-position: 60px; */
 
@@ -328,7 +328,7 @@ body {
 
 .panel_driving_change {
   background-color: #D13F00;
-  background-image: url("/images/recycling.png");
+  background-image: url("../images/recycling.png");
   background-size: auto 75%;
   background-position: calc(100% - 80px) center;
   background-repeat: no-repeat;
@@ -341,7 +341,7 @@ body {
 
 .panel_consumers {
   background-color: #D13F00;
-  background-image: url("/images/consumers.png");
+  background-image: url("../images/consumers.png");
   background-size: auto 90%;
   background-position: 80px;
   background-repeat: no-repeat;
@@ -353,7 +353,7 @@ body {
 
 .panel_politics {
   background-color: #865B2C;
-  /* background-image: url("/images/politics.png"); */
+  /* background-image: url("../images/politics.png"); */
   background-size: auto 30%; 
   background-position: calc(100% - 100px) center;
   background-repeat: no-repeat;
@@ -370,7 +370,7 @@ div img {
 }
 
 .panel_activism {
-  background-image: url("/images/activisim.png");
+  background-image: url("../images/activisim.png");
   background-size: auto 90%; 
   background-position: calc(100% - 80px) center;
   background-repeat: no-repeat;
@@ -383,7 +383,7 @@ div img {
 
 .module_voting {
   padding-left: 80px;
-  background-image: url("/images/vote.png");
+  background-image: url("../images/vote.png");
   background-size: auto 80%;
   background-position: calc(100% - 40px) center;
   background-repeat: no-repeat;
@@ -394,7 +394,7 @@ div img {
 
 .panel_understand {
   background-color: #865B2C;
-  background-image: url("/images/data_collecting.png");
+  background-image: url("../images/data_collecting.png");
   background-size: auto 80%;
   background-position: calc(100% - 80px) center;
   background-repeat: no-repeat;
@@ -407,7 +407,7 @@ div img {
 
 .panel_strong_girls {
   background-color: white;
-  background-image: url("/images/strong-girls.png");
+  background-image: url("../images/strong-girls.png");
   background-size: auto 100%;
   background-position: 80px;
   background-repeat: no-repeat;
@@ -419,7 +419,7 @@ div img {
 }
 .panel_take_action {
 background-color: #D13F00;
-background-image: url("/images/take-action.png");
+background-image: url("../images/take-action.png");
 background-size: auto 80%;
 background-position: calc(100% - 140px) center;
 background-repeat: no-repeat;
