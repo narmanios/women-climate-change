@@ -1,6 +1,6 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-const dataURL = "/data/homicides.json";
+const dataURL = "./data/homicides.json";
 
 async function barchart_two() {
     const margin = { top: 20, right: 80, bottom: 20, left: 40 };
