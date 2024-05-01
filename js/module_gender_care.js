@@ -1,7 +1,7 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 async function linechart_caretaking() {
-    const dataURL = "/data/gender_care.json";
+    const dataURL = "./data/gender_care.json";
 
     // Fetch the data from the JSON file
     const data = await d3.json(dataURL);
