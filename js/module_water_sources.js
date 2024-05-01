@@ -1,6 +1,6 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
-const dataURL = "/data/water_sources.json"; // Make sure this path is correct for your setup
+const dataURL = "./data/water_sources.json"; // Make sure this path is correct for your setup
 
 async function barchart() {
     const margin = { top: 60, right: 100, bottom: 0, left: 250 }; // Adjust right margin for legend
