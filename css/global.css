@@ -353,8 +353,8 @@ body {
 
 .panel_politics {
   background-color: #865B2C;
-  background-image: url("../images/politics.png");
-  background-size: auto 30%; 
+/*   background-image: url("../images/politics.png");
+  background-size: auto 30%;  */
   background-position: calc(100% - 100px) center;
   background-repeat: no-repeat;
   width: 100%;
