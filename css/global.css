@@ -634,21 +634,3 @@ h2.black {
   margin-bottom: 0; /* Ensure there's no top margin causing space above the footer */
 
 }
-
-.content_container, .content_container_left {
-  width: 45%; /* Set the width to 45% of the viewport width */
-  max-width: 800px; /* Set the maximum width to prevent it from expanding beyond a certain point */
-  padding-right: 140px; /* Adjust padding as needed */
-  padding-top: 140px; /* Adjust padding as needed */
-  float: right; /* Ensure proper alignment */
-}
-
-@media (max-width: 768px) {
-  .content_container, .content_container_left {
-    width: 95%; /* Adjust width for smaller screens */
-    max-width: none; /* Remove maximum width restriction */
-    padding-right: 0; /* Remove right padding for smaller screens */
-    padding-top: 80px; /* Adjust padding as needed */
-    float: none; /* Remove float for smaller screens */
-  }
-}
