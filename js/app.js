@@ -1,4 +1,4 @@
-linechart_one ();
+linechart_one();
 barchart();
 barchart_two();
 linechart_caretaking();
