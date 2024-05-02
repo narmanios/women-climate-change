@@ -183,9 +183,9 @@ body {
 
 .panel_girl_collecting_water {
   background-color: #865B2C;
-  background-image: url("../images/girl-collecting-water.png");
-  background-size: auto 100%;
-  /* background-position: 80px; */
+  background-image: url("../images/collecting-water-case.png");
+  background-size: auto 70%;
+  background-position: 80px;
   background-repeat: no-repeat;
   width: 100%; 
   padding-left: 80px;
@@ -195,8 +195,8 @@ body {
 
 .panel_danger {
   background-color: #865B2C;
-  background-image: url("../images/woman-danger.png");
-  background-size: auto 70%;
+  background-image: url("../images/girl-collecting-water.png");
+  background-size: auto 90%;
   background-position: calc(100% - 120px) center;
   background-repeat: no-repeat;
   width: 100%; 
