@@ -1,7 +1,7 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 async function linechart_caretaking() {
-    const dataURL = "./data/gender_care.json";
+    const dataURL = "/data/gender_care.json";
 
     // Fetch the data from the JSON file
     const data = await d3.json(dataURL);
@@ -118,8 +118,9 @@ svg.selectAll(".female-circle")
     .attr("fill", color["female"]) // Assigning color for female_pct
     .on("mouseover", function(event, d) {
         d3.select(this).attr("r", 7); // Increase radius on mouseover
-        
-        const tooltipText = `${d.country}:\n\n Female - ${d['female'].toFixed(1)} hours,\nMale - ${d['male'].toFixed(1)} hours`;
+        const tooltipText = `${d.country} (${d.date}):\n\nFemale - ${d['female'].toFixed(1)} hours,\nMale - ${d['male'].toFixed(1)} hours`;
+
+        // const tooltipText = `${d.country}:\n\n Female - ${d['female'].toFixed(1)} hours,\nMale - ${d['male'].toFixed(1)} hours`;
         const textWidth = 200; // Width of the tooltip rectangle
         const lineHeight = 20; // Height of each line
         const lines = wrapText(tooltipText, textWidth); // Wrap text into lines
