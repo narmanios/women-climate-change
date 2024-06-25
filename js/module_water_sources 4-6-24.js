@@ -107,6 +107,15 @@ async function barchart() {
         const seasons = ['Dry season', 'Wet season'];
         const barWidth = y.bandwidth() / seasons.length;
 
+        function getColor(season, source) {
+            if (source.includes("Rainwater")) {
+                return season === 'Dry season' ? "black" : "grey";
+            } else if (source.includes("Borehole")) {
+                return season === 'Dry season' ? "#90EE90" : "#8FBC8F";
+            }
+            return season === 'Dry season' ? '#69b3a2' : '#f2a671';
+        }
+
         seasons.forEach((season, i) => {
             barGroup.append("rect")
                 .attr("class", `bar ${season.replace(/\s+/g, '-')}`)
@@ -114,7 +123,7 @@ async function barchart() {
                 .attr("y", i * barWidth)
                 .attr("width", d => x(d[1][season]))
                 .attr("height", barWidth - 1)
-                .attr("fill", seasonColors[season])
+                .attr("fill", getColor(season, d[0]))
                 .on("mouseover", (event, d) => {
                     tooltip.transition()
                         .duration(200)
@@ -162,6 +171,9 @@ async function barchart() {
         { color: "#69b3a2", label: "Dry Season", key: "Dry-season" },
         { color: "#f2a671", label: "Wet Season", key: "Wet-season" }
     ];
+
+
+
 
     
 

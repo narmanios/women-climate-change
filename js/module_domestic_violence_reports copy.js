@@ -8,6 +8,8 @@ async function linechart_violence() {
 
     // Parse the date / time
     const parseTime = d3.timeParse("%m/%d/%y");
+
+    // Format the data
     data.forEach(function(d) {
         d.date = parseTime(d.Homicides);
         d.value = +d['Family violence calls'];
@@ -33,7 +35,7 @@ async function linechart_violence() {
     const x = d3.scaleTime()
         .domain(d3.extent(data, d => d.date))
         .range([0, width]);
-        const xAxisGroup = svg.append("g")
+    const xAxisGroup = svg.append("g")
         .attr("transform", `translate(0,${height})`)
         .call(d3.axisBottom(x).tickSize(0)) // No tick lines, retain text
     xAxisGroup
@@ -52,22 +54,19 @@ async function linechart_violence() {
         .domain([0, d3.max(data, d => d.value)])
         .range([height, 0]);
     const yAxisGroup = svg.append("g")
-    .call(d3.axisLeft(y).tickValues(d3.range(0, d3.max(data, d => d.value) + 20, 20)).tickSize(-width));
+        .call(d3.axisLeft(y).tickValues(d3.range(0, d3.max(data, d => d.value) + 20, 20)).tickSize(-width));
 
-// Remove the top line by not extending the domain above the highest tick
-yAxisGroup.select(".domain").remove(); // Removes the main y-axis line entirely
-yAxisGroup.selectAll(".tick line")
-    .attr("stroke", "#ccc")  // Light gray color for grid lines
-    .attr("stroke-dasharray", "2,2");  // Dashed lines for aesthetics
+    // Remove the top line by not extending the domain above the highest tick
+    yAxisGroup.select(".domain").remove(); // Removes the main y-axis line entirely
+    yAxisGroup.selectAll(".tick line")
+        .attr("stroke", "#ccc")  // Light gray color for grid lines
+        .attr("stroke-dasharray", "2,2");  // Dashed lines for aesthetics
 
-yAxisGroup.selectAll("text")
-    .style("font-family", "Arial")
-    .style("font-size", "12px")
-    .attr("fill", "grey")
-    .attr("dx", "-5px"); 
-
-
-    
+    yAxisGroup.selectAll("text")
+        .style("font-family", "Arial")
+        .style("font-size", "12px")
+        .attr("fill", "grey")
+        .attr("dx", "-5px"); 
 
     // Draw the line
     svg.append("path")
@@ -80,41 +79,10 @@ yAxisGroup.selectAll("text")
             .y(d => y(d.value))
         );
 
-    // Tooltip setup
-    const tooltip = d3.select("body").append("div")
-        .attr("class", "tooltip")
-        .style("opacity", 0)
-        .style("position", "absolute")
-        .style("background", "white")
-        .style("padding", "10px")
-        .style("border", "1px solid #ddd")
-        .style("border-radius", "5px")
-        .style("text-align", "center")
-        .style("pointer-events", "none")
-        .style("color", "black");  // Make tooltip text black
 
-    // Add circles for each data point for tooltips
-    svg.selectAll(".dot")
-        .data(data)
-        .enter().append("circle")
-        .attr("class", "dot")
-        .attr("r", 3)  // Adjusted the radius to make smaller dots
-        .attr("cx", d => x(d.date))
-        .attr("cy", d => y(d.value))
-        .attr("fill", "#D13F00")
-        .on("mouseover", function(event, d) {
-            tooltip.transition()
-                .duration(200)
-                .style("opacity", 1);
-            tooltip.html(`Date: ${d.date.toLocaleDateString()} <br/> Calls: ${d.value}`)
-                .style("left", `${event.pageX + 10}px`)
-                .style("top", `${event.pageY - 28}px`);
-        })
-        .on("mouseout", function() {
-            tooltip.transition()
-                .duration(500)
-                .style("opacity", 0);
-        });
+
+
+        
 }
 
 linechart_violence();
