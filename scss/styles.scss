@@ -1,8 +1,9 @@
-@import 'variables';
-@import 'base';
-@import 'billboard';
-@import 'sections';
-@import 'helpers';
-@import 'footer';
+@import "variables";
+@import "base";
+@import "billboard";
+@import "sections";
+@import "helpers";
+@import "footer";
 
-
+//command to compile SCSS to CSS:
+//sass --watch scss/styles.scss:css/styles.css

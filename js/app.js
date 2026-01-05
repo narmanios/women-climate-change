@@ -5,14 +5,10 @@
 // import { linechart_violence } from "./module_domestic_violence_reports.js";
 // import { setupVideoObserver } from "./module_video.js";
 
-
-linechart_one ();
+// linechart_one ();
 barchart();
 barchart_two();
 linechart_caretaking();
 linechart_violence();
 
-
 setupVideoObserver();
-
-

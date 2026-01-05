@@ -15,6 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
 </head>
 
+
 <body>
   <!-- hero section -->
   <section class="billboard orangered-bg no-padding-right">
@@ -149,8 +150,8 @@
     </figure>
   </section>
 
-  <section class="section no-padding-right no-padding-bottom grid-overlap">
-    <div class="container chart">
+  <section class="section no-padding-right no-padding-bottom">
+    <div id="domestic-violence" class="container chart">
       <div class="metadata">
         <h2>Domestic Violence</h2>
         <p>Extreme weather events resulting from climate change can lead to an increase in gender-based violence.
@@ -178,7 +179,7 @@
           Council on Family Violence</a></aside>
     </div>
 
-    <figure class="media cover">
+    <figure id="injured-woman" class="media cover">
       <img src="images/domestic-violence.png" alt="">
     </figure>
   </section>
@@ -195,7 +196,7 @@
 
       <div class="container chart">
         <h3>Time spent on unpaid care and domestic work.</h3>
-        <div id="linechart_caretaking"></div>
+        <div id="linechart_caretaking" class="scrollable_charts"></div>
       </div>
       <p>Note: Data was collected for each country on different years (2001-2020).</p>
       <aside>Sources: <a href="https://datatopics.worldbank.org/sdgatlas/goal-5-gender-equality/?lang=en">The World Bank
@@ -295,7 +296,7 @@
           <button id="aridButton" class="segment-button active">Arid Climate</button>
           <button id="humidButton" class="segment-button">Humid Climate</button>
         </div>
-        <div id="barchart"></div>
+        <div id="barchart" class="scrollable_charts"></div>
         <div class="notes">Note: * Indicates improved water source. Clusters are classified as arid if aridity index
           values fall in the bottom 25% of all values, and humid if aridity index values fall in the top 25% of all
           values.</div>
@@ -318,7 +319,7 @@
           mechanism to deal with poverty. These rates are much higher in the poorest households. </p>
       </div>
       <div class="module_charts">
-        <div id="linechart_child_marriage"></div>
+        <div id="linechart_child_marriage" class="scrollable_charts"></div>
       </div>
       <aside>Source: <a href="https://data.unwomen.org/features/why-climate-change-matters-women#paragraph-411">UN
           Women</a></aside>
